@@ -29,9 +29,13 @@ export default function Navbar() {
           
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-brand-red rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-white font-heading font-bold text-lg">JC</span>
-            </div>
+           <div className="w-12 h-12 bg-brand-red rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+            <img 
+              src="/logo.jpg" 
+              alt="Logo" 
+              className="w-full h-full object-cover"
+            />
+          </div>
             <div>
               <span className="font-heading text-xl font-bold text-gray-900">JAZZA</span>
               <span className="font-heading text-xl font-bold text-brand-red"> CENTRE</span>

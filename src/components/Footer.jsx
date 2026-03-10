@@ -12,9 +12,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-brand-red rounded-full flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">JC</span>
-              </div>
+             <div className="w-12 h-12 bg-brand-red rounded-full flex items-center justify-center shadow-lg overflow-hidden">
+            <img 
+              src="/logo.jpg" 
+              alt="Logo" 
+              className="w-full h-full object-cover"
+            />
+          </div>
               <div>
                 <p className="font-heading text-white font-bold text-lg leading-none">JAZZA CENTRE</p>
                 <p className="text-xs text-gray-400">Managed Household Solutions</p>

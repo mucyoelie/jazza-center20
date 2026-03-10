@@ -1,16 +1,16 @@
 const galleryItems = [
-  { category: 'Training', title: 'Bronze Programme', img: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80', desc: 'Foundation training in progress' },
-  { category: 'Training', title: 'Kitchen & Food Safety', img: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80', desc: 'Professional kitchen training' },
-  { category: 'Training', title: 'Silver Certification', img: 'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&q=80', desc: 'Advanced household management training' },
-  { category: 'Placements', title: 'Bronze DM at Work', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80', desc: 'Certified DM maintaining household standards' },
-  { category: 'Placements', title: 'Platinum Excellence', img: 'https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=600&q=80', desc: 'Executive household management in action' },
-  { category: 'Jazza Foodies', title: 'Event Catering', img: 'https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80', desc: 'Jazza Foodies at a diplomatic event' },
-  { category: 'Jazza Foodies', title: 'Culinary Excellence', img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80', desc: 'International cuisine mastery' },
-  { category: 'Jazza Foodies', title: 'Pastry & Baking', img: 'https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&q=80', desc: 'Advanced pastry for Platinum DMs' },
-  { category: 'Certification', title: 'Graduation Day', img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80', desc: 'Certified DMs receiving their credentials' },
-]
+  { category: 'Training', title: 'Bronze Programme', img: '/image26.jpg', desc: 'Foundation training in progress' },
+  { category: 'Training', title: 'Kitchen & Food Safety', img: '/image22.jpg', desc: 'Professional kitchen training' },
+  { category: 'Training', title: 'Silver Certification', img: '/image25.jpg', desc: 'Advanced household management training' },
+  { category: 'Placements', title: 'Bronze DM at Work', img: '/image20.jpg', desc: 'Certified DM maintaining household standards' },
+  { category: 'Placements', title: 'Platinum Excellence', img: '/image19.jpg', desc: 'Executive household management in action' },
+  { category: 'Jazza Foodies', title: 'Event Catering', img: '/image16.jpg', desc: 'Jazza Foodies at a diplomatic event' },
+  { category: 'Jazza Foodies', title: 'Culinary Excellence', img: '/image4.jpg', desc: 'International cuisine mastery' },
+  { category: 'Jazza Foodies', title: 'Pastry & Baking', img: '/image17.jpg', desc: 'Advanced pastry for Platinum DMs' },
+  { category: 'Certification', title: 'Graduation Day', img: '/image11.jpg', desc: 'Certified DMs receiving their credentials' },
+];
 
-const categories = ['All', 'Training', 'Placements', 'Jazza Foodies', 'Certification']
+const categories = ['All', 'Training', 'Placements', 'Jazza Foodies', 'Certification'];
 
 import { useState } from 'react'
 
